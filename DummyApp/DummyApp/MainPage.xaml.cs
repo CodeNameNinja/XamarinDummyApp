@@ -14,6 +14,15 @@ namespace DummyApp
         {
             InitializeComponent();
         }
+
+        void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            string username = nameEntry.Text;
+            string gretting = "Hello" + username;
+            greetingLabel.Text = gretting;
+        }
+
+        
     }
 }
 
