@@ -26,9 +26,7 @@ namespace DummyApp
             }
             else
             {
-                /*
-                 * TODO navigate to Main Page
-                 */
+                Navigation.PushAsync(new HomePage());
             }
         }
     }
