@@ -7,12 +7,12 @@
 
     <StackLayout Margin="15" VerticalOptions="Center">
         <Label x:Name="greetingLabel" Text="Hello Xamarin World!"/>
-        <Entry x:Name="email"
+        <Entry x:Name="emailEntry"
                Placeholder="Email"
                Keyboard="Email"
                />
-        <Entry x:Name="password"
-               Placeholder="password"
+        <Entry x:Name="passwordEntry"
+               Placeholder="Password"
                IsPassword="True"
                />
         <Button x:Name="loginButton"
