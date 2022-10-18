@@ -13,16 +13,11 @@ namespace DummyApp
         public MainPage()
         {
             InitializeComponent();
-        }
+        }        
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
+        void loginButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            string username = nameEntry.Text;
-            string gretting = "Hello" + username;
-            greetingLabel.Text = gretting;
         }
-
-        
     }
 }
 
