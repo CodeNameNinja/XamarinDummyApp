@@ -5,20 +5,22 @@
              ios:Page.UseSafeArea="True"
              x:Class="DummyApp.MainPage">
 
+
+
     <StackLayout Margin="15" VerticalOptions="Center">
         <Label x:Name="greetingLabel" Text="Hello Xamarin World!"/>
         <Entry x:Name="emailEntry"
+               TextColor="{StaticResource blueColor}"
                Placeholder="Email"
                Keyboard="Email"
                />
         <Entry x:Name="passwordEntry"
+               TextColor="{StaticResource blueColor}"
                Placeholder="Password"
                IsPassword="True"
                />
         <Button x:Name="loginButton"
                 Text="Sign In"
-                BackgroundColor="#3F84E5"
-                TextColor="White"
                 Clicked="loginButton_Clicked"
                 />
     </StackLayout>
